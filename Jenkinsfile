@@ -1,7 +1,7 @@
 pipeline {
-   ## agent {
-     ##   label "windows"
-   ## }
+    agent {
+        label "master"
+    }
     tools {
         maven 'Maven'
         jdk 'Java_jdk'
